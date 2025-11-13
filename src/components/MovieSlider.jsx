@@ -13,14 +13,28 @@ const MovieSlider = () => {
                     </div>
                     <div className="flex space-x-2">
                         <button className="p-2 rounded-full bg-neutural-800/70 hover:bg-neutral-700 
-                        text-white transition-all"> 
+                        text-white transition-all"
+                        aria-label="Scroll left"
+                        > 
  
                         </button>
                     </div>
                 </div>
-
+                
+                {/* Movie Slider */}
+                <div className="relative">
+                    <div className="flex space-x-4 overflow-x-hidden scorllbar-hide pb-4 snap-x">
+                        {/* Condtional Rendering */}
+                        <div className="min-w-[200px] md:min-w-[240px] snap-start relative group cursor-pointer">
+                            <div className="rounded-lg overflow-hidden bg-neutral-800">
+                                <div className="relative aspect-[2/3]">
+                                    <img src="" alt="" className=""/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-
         </section>
     )
 }
