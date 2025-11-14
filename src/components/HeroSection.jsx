@@ -16,7 +16,7 @@ const HeroSection = () => {
         <div className="max-w-3xl">
           {/* Movies info */}
           <div className="transition-all duration-700">
-            {/* 👉 메타 정보 줄만 flex 안에 */}
+
             <div className="flex items-center space-x-3 mb-4">
               <span className="bg-red-500/90 text-white text-xs font-semibold px-2 py-1 rounded-sm">
                 FEATURED
